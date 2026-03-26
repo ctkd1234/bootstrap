@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Home-Portal</title>
+  <link rel="icon" href="./img/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Bootstrap cheatsheet -->
+  <!-- https://bootstrap-cheatsheet.themeselection.com/ -->
+  <!-- Bootstrap入門-->
+  <!-- https://zenn.dev/yamap_web/articles/a2d4d213d4eb48-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- icon -->
+  <link href="headers.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="visually-hidden">Headers examples</h1>
+  <!-- Header部分 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-info-subtle ">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 fw-bold" href="https://hanami.walkerplus.com/ranking/ar1043/">
+        <img src="./img/flower_ume.png" alt="Logo" width=auto height="48" class="d-inline-block align-bottom">
+      </a>
+      <div>aaa</div>
+      <div class="fs-3 fw-bold">
+        千晶ポータル
+      </div>
+      <div>bbb</div>
+      <!-- <ul class="navbar-nav">
+      </ul> -->
+    </div>
+  </nav>
+
+  <main>
+    <div class="row">      <!-- ＝＝＝＝＝＝＝＝【１段目】＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+      <div class="col">    <!-- 【１列目】-->
+        <!-- ---------【サイト】-------------------------------------------------- -->     
+        <div class="p-2 d-flex flex-column mb-3 border border-primary bg-warning-subtle"> <!-- 縦方向に並べるのはcolumn-->
+          <h6>【毎日見るグループ】</h6>
+          <h6><a class ="p-3" href="http://company.hirata.co.jp/cws/cws">company</a></h6>
+          <h6><a class ="p-3" href="https://hiratacojp.sharepoint.com/:f:/r/sites/hinet0032/200_/280_グローバル事業本部全体庶務?csf=1&web=1&e=BG6lJe">グロ事庶務</a></h6>
+          <h6><a class ="p-3" href="https://hiratacojp.sharepoint.com/:u:/r/sites/hinet0032/SitePages/EventPlanHome.aspx?csf=1&web=1&e=v3pYoe">グ事業推進部ポータル</a></h6>
+          <h6><a class="p-3" href="https://hiratacojp.sharepoint.com/:u:/r/sites/hinet0013/SitePages/%E7%B5%84%E7%B9%94%E5%9B%B3%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC.aspx?csf=1&web=1&e=r7R2Qu">組織図メニュー</a></h6>
+          <h6><a class ="p-3" href="https://teams.microsoft.com/l/channel/19:0997ddc023004c928450beca95e5e226@thread.tacv2/月次・四半期?groupId=7b89c702-0192-470b-bef8-8691f095b8c9&tenantId=1c0150df-24ef-481a-b12c-3c6892ad47b8">Teams</a></h6>
+          <hr>
+          <h6><a class ="p-3" href="https://hiratacojp.sharepoint.com/:u:/r/sites/msteams_9e2e8b/SitePages/Home.aspx?csf=1&web=1&e=y3uAaS">犬のサイト</a>
+          <hr>
+          <h6><a class ="p-3" href="https://m365.cloud.microsoft/chat?fromcode=m365copilot">Copilot</a></h6>
+          <hr>
+          <!-- <h6><a href="https://hiratacojp.sharepoint.com/:u:/r/sites/msteams_d16c8e/SitePages/Home.aspx?csf=1&web=1&e=aa8hYu">関係会社ポータルサイト</a></h6> -->
+          <div class="dropdown">
+            <a class="p-3 btnbtn btn-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ニュースレター
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://hiratacojp.sharepoint.com/:u:/r/sites/NewsLetter/SitePages/第1号.aspx?csf=1&web=1&e=1KURgw">第1号</a></li>
+              <li><a class="dropdown-item" href="https://hiratacojp.sharepoint.com/:u:/r/sites/NewsLetter/SitePages/第2号.aspx?csf=1&web=1&e=1KURgw">第2号</a></li>
+              <li><a class="dropdown-item" href="https://hiratacojp.sharepoint.com/:u:/r/sites/NewsLetter/SitePages/第3号.aspx?csf=1&web=1&e=1KURgw">第3号</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> <!--class="col"【1列目】-->
+
+      <div class="col"> <!-- 【2列目】-->
+        <div class="p-2 d-flex flex-column mb-3 border border-success bg-danger-subtle">
+        <h6>【経理】</h6>
+        <h6>DIVA</h6>
+        <h6>GRANDIT</h6>
+        <h6>プロネクサス</h6>
+        <h6>Kcfc</h6>
+        </div>
+
+        <!-- <div class="col"> 【3列目】 -->
+        <div class="p-2 d-flex flex-column mb-3 border border-success bg-secondary-subtle">
+        <h6>【ときどきグループ】</h6>
+        <h6><a class ="p-3" href="https://hiratacojp.sharepoint.com/:f:/s/msteams_5ebb04/IgBwbKrwkP8gTpxTOZoUuUnSAYa3lfep2TRFxlv7xufXO1s?e=zEUzgJ">経理部への定期便入れ</a></h6>
+        <h6><a class ="p-3" href="https://hiratacojp.sharepoint.com/:x:/s/msteams_a8cad6/IQDb4r3HdWj1TZXqqRMlEFZsAbe8nYfFdm9YRnkSxxK_Frg?e=G6PFGU">週一MTG進捗表</a></h6>
+        </div>
+        <!-- </div> -->
+    </div>
+    </div> <!--class="row"-->
+    <hr>
+    <div class="row"> 
+      <div class="col">
+        <div class="p-2 d-flex flex-column mb-3 border border-success bg-danger-subtle">
+          <h6>【クイックリンク】</h6>
+          <h6><a class ="p-3" href="https://hiratacojp.sharepoint.com/sites/hinet0001">Hi-Net</a></h6>
+          <h6><a class ="p-3" href="https://www.hirata.co.jp/">平田機工外部HP</a></h6>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 d-flex flex-column mb-3 border border-success bg-danger-subtle">
+          <h6>【いろいろ】</h6>
+          <h6><a href="https://www.amazon.co.jp/">AmazonBusiness</a></h6>
+          <h6><a href="https://ssl.wf.jobcan.jp/#/">ジョブカン</a></h6>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--Bootstrapを使うときは最後に↓みたいなScriptを入れる-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
